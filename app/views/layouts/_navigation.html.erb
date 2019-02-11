@@ -1,12 +1,18 @@
 <%# navigation styled for Zurb Foundation 5 %>
 <nav class="top-bar" data-topbar>
-  <ul class="title-area">
-    <li class="name"><%= link_to 'MnMcryptos', root_path %></li>
-    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-  </ul>
-  <div class="top-bar-section">
-    <ul>
-      <%= render 'layouts/navigation_links' %>
+  <div class="top-bar-left">
+    <img class="thumbnail" src="/img/mnm-logo-90.png" alt="mnm logo">
+    
+    <ul class="title-area">
+      <li class="name"  <img class="thumbnail" src="/img/mnm-logo-90.png" alt="mnm logo"> <!-- ><%= link_to 'MnMcryptos', root_path %> --></li> 
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
     </ul>
+  </div>
+  <div class="top-bar-right">
+    <div class="top-bar-section">
+      <ul>
+	<!-- <%= render 'layouts/navigation_links' %> -->
+      </ul>
+    </div>
   </div>
 </nav>
