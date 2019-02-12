@@ -4,3 +4,9 @@
     padding: 5px;
     background-color: white
 }
+
+.top-bar-section li:not(.has-form) a:not(.button):not(.submit) {
+    background: #fff;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
+}
